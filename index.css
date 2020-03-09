@@ -1,0 +1,14 @@
+nav {
+  background-color: #444444;
+  color: #bbbbbb;
+  margin: 1vw 1vw 0 1vw;
+}
+
+.gallery {
+  display: flex;
+}
+
+nav li:nth-child(1) {
+  background-color: #bbbbbb;
+  color: #444444;
+}
