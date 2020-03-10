@@ -1,3 +1,4 @@
+/* -------------------------------- tags */
 nav {
   background-color: #444444;
   color: #bbbbbb;
@@ -12,17 +13,29 @@ h1 {
   flex-grow: 1;
 }
 
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+h2 {
+  font-size: 1.5em;
+  padding-left: 5vw;
 }
-.gallery {
-  display: flex;
+
+header {
+  background-color: #bbbbbb;
+  height: 10vw;
 }
+
+hr {
+  margin: 1vw 1vw 0 1vw;
+}
+
+/* -------------------------------- structure */
+h2 > span {
+  font-size: 0.8em;
+}
+
 nav > ul > * {
   padding: 0.5em;
 }
+
 nav > ul {
   flex-grow: 10;
 }
@@ -32,8 +45,25 @@ nav li:nth-child(1) {
   color: #444444;
 }
 
-header {
+#fellows {
+  justify-content: space-between;
+}
+
+#fellows article {
+  width: 30vw;
+  height: 35vw;
   background-color: #bbbbbb;
-  height: 10vw;
+}
+
+/* -------------------------------- helpers */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery {
+  display: flex;
+}
+.marger {
   margin: 0 1vw;
 }
