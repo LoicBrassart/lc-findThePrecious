@@ -21,7 +21,6 @@ h1 {
   display: flex;
 }
 nav > ul > * {
-  border: 2px dotted green;
   padding: 0.5em;
 }
 nav > ul {
