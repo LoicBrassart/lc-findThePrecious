@@ -2,10 +2,30 @@ nav {
   background-color: #444444;
   color: #bbbbbb;
   margin: 1vw 1vw 0 1vw;
+  height: 2em;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
 }
 
+h1 {
+  font-size: 2em;
+  flex-grow: 1;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .gallery {
   display: flex;
+}
+nav > ul > * {
+  border: 2px dotted green;
+  padding: 0.5em;
+}
+nav > ul {
+  flex-grow: 10;
 }
 
 nav li:nth-child(1) {
