@@ -32,3 +32,9 @@ nav li:nth-child(1) {
   background-color: #bbbbbb;
   color: #444444;
 }
+
+header {
+  background-color: #bbbbbb;
+  height: 10vw;
+  margin: 0 1vw;
+}
